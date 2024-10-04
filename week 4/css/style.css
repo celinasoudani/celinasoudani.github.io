@@ -1,0 +1,58 @@
+
+.section1 {
+	
+	background-image: url(../images/imageOne.jpg);
+}
+
+.section2 {
+	
+	background-image: url(../images/imageTwo.jpg);
+}
+
+.section3 {
+	
+	background-image: url(../images/imageThree.jpg);
+}
+
+.section4 {
+	
+	background-image: url(../images/imageFour.jpg);
+}
+
+.section5 {
+	
+	background-image: url(../images/imageFive.jpg);
+}
+
+html, body {
+	
+	height:100%;
+}
+
+.section1, .section2, .section3, .section4, .section5 {
+	
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-attachment: fixed;
+
+}
+
+.caption {
+
+	width:80%;
+	height: 200px;
+
+	position: relative;
+	left: 10%;
+	top: 60%;
+}
+
+p{
+	font-size: 50px;
+	font-family: helvetica;
+	color: lightblue;
+	text-align: center;
+}
