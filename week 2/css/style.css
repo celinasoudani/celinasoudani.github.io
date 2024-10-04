@@ -1,0 +1,49 @@
+/* command and / for notes*/
+/*for custom font use google fonts, download it, add the image of alphabets in css folder and create a special font family*/
+/*class can be used to name or identify a group of pics for same properties for example for example different titles can have 
+the same class name so they can all be the same color in the css page, (same style properties for each class) */
+/* ID is for something unique, one picture*/
+
+/*inspect is helpful for color codes and margins*/
+/*use width:200px; 
+border-radius:50% */
+/*display helps organize the layout of text, in line or block display*/
+/*paddding and margings help organize content*/
+/*float is good for align left or right*/
+
+
+@font-face {
+	font-family: "specialFont";
+	src:url(fonts/dancing.ttf);
+}
+
+h1{
+	font-size: 40px;
+	color: #b5f7ff;
+	font-family: specialFont;
+	 padding-left: 500px;
+}
+
+img{
+	width: 250px;
+	border-radius: 50%;
+	padding-left:30px;
+}
+
+#intro {
+	color: pink;
+	background: #8fbf8a;
+	font-size: 30px;
+	font-family: specialFont;
+}
+
+#goal
+{
+	color: pink;
+	background: #fffe9299;
+	font-size: 25px;
+	font-family: specialFont; 
+}
+body{
+	background-color: pink
+}
